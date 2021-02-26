@@ -31,6 +31,8 @@ We found that with a high degree of accuracy we were able to predict an individu
 
 Discussion: 
 The accuracy of our model is an interesting exploration into the abstract data that we don’t regularly think about. Polynomial Features has improved the accuracy of the prediction to typically be within a rounding error. For example, to test the model we passed data from Cloud9's support player in the current season (gathered 2/26/21), who’s current KDA is 2.9 and received a prediction of 2.897.
+
+This project highlights the effectiveness of statistical analysis across a focused dataset, but it is likely to lose accuracy quickly if more diverse data is included. For example, it is unlikely that we would be able to construct a similar model for global leagues as there is very little interaction between the leagues meaning large differences in skill level and method of play exist.
 	
 Summary:
-This project highlights the effectiveness of statistical analysis across a focused dataset, but it is likely to lose accuracy quickly if more diverse data is included. For example, it is unlikely that we would be able to construct a similar model for global leagues as there is very little interaction between the leagues meaning large differences in skill level and method of play exist.
+In summary we were able to go on a deep exploration of the relative nature of league of legends stats and highlight the performance of Polynomial Features in predicting the desired feature.
