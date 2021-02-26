@@ -12,6 +12,7 @@ According to the source, 'In most of the stats on this site, values are calculat
 The player stats are stored as an average over each season of play. 
 In our data we cut out any player who had fewer than 6 games played per team per season.
 To increase our accuracy, we used the Polynomial Features library from sklearn.
+Date data was gathered: 2/25/2021
 
 Methods: 
 First, we downloaded the various needed datasets (LCS regular season player stats from 2015 - 2020) and stored them in this repo to ensure constant access and unchanging data.
