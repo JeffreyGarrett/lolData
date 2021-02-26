@@ -12,7 +12,10 @@ In our data we cut out any player who had fewer than 6 games played per team per
 In order to increase our accuracy we used the PolynomialFeatures library from sklearn.
 
 Methods
-What materials/APIs/tools were used or who was included in answering the research question?
+We imported all data into a pandas df and cleaned it up using pandas functions. 
+Then we used seaborn to help find some correlation among various features visually.
+Following this we trained an sklearn LinearRegression model to predict for us using various stats we had found to have an influence on KDA but were not directly linked to it.
+In order to improve the accuracy of our results we made use of sklearn's PolynomialFeatures which got us up to an r-squared score of ~0.91
 
 Results
 We found that with 90% accuracy we were able to predict an individuals KDA given the following stats: 
